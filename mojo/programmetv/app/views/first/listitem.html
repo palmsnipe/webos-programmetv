@@ -1,0 +1,19 @@
+<div class="palm-row" x-mojo-tap-highlight='momentary'>
+	<div class="palm-row-wrapper">
+		<table>
+		<tr>
+		<td>
+			<img src="#{-image}" alt="#{-channel}" width="64px" height="64px" style="margin: 3px 3px 0 3px; padding: 3px 3px 3px 3px; background: #dddddd; border: 1px solid #cacaca; font-size:14px;" />
+		</td>
+		<td valign="top" width="100%" style="padding: 3px 5px 0 3px;">
+			<div class="palm-body-title">#{-title}</div>
+			<div id="progressBar" x-mojo-element="ProgressBar" class="details-progress-pill"></div>
+			<div class="palm-body-text">#{-text}</div>
+		</td>
+		</tr>
+		</table>
+		<div id="#{id}-drawer" x-mojo-element="Drawer">
+         <div class="palm-body-text">#{-desc}<br />#{-prod}<br />#{-channel}</div>
+      </div>
+	</div>
+</div>

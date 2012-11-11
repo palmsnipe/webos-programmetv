@@ -1,0 +1,55 @@
+<div class="palm-hasheader">
+	<div id="title-prefs" class="palm-header">
+		Preferences
+	</div>
+</div>
+<div class="palm-header-spacer"></div>
+
+<div id="touchpad">
+
+<div class="palm-group">
+	<div id="select-languages" class="palm-group-title">
+		Select Languages
+	</div>
+		<div class="palm-list">
+			<div class="palm-row single" x-mojo-element="delayed">
+				<div class="palm-row-wrapper">
+					<div id="selectLang" x-mojo-element="ListSelector"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="palm-group">
+	<div id="select-catalog" class="palm-group-title">
+		Select Catalog
+	</div>
+	<div class="palm-list">
+		<div class="palm-row single" x-mojo-element="delayed">
+			<div class="palm-row-wrapper">
+				<div id="selectCatalog" x-mojo-element="ListSelector"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="palm-group">
+	<div id="text-options" class="palm-group-title">
+		Options
+	</div>
+	<div class="palm-list">
+		<div class="palm-row last">
+			<div class="palm-row-wrapper">
+				<div class="label left" id="text-start-evening">Start of the evening</div>
+				<table><tr>
+					<td><div x-mojo-element="TimePicker" id="timepicker" style="margin-left: -10px; margin-bottom: 3px;"></div></td>
+				</tr></table>
+			</div>
+		</div>
+	</div>
+</div>
+<div x-mojo-element="Button" id="clearButton" style="clear: both;"></div>  
+<div id="text-restart" class="palm-body-text">
+	Requires restart to apply changes.
+</div> 
+
+</div>

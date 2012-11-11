@@ -1,0 +1,34 @@
+.my-scene-fade-top {
+		position: fixed; 
+		top: 0; 
+		z-index: 100000;
+		height: 54px; 
+		width: 100%;
+		background: url(../images/my-scene-fade-top.png) top center repeat-x;
+	}
+	.my-scene-fade-arrow-bottom {
+		position: fixed; 
+		bottom:54px; /*35*/
+		z-index: 100000;
+		height: 54px; 
+		width: 100%;
+		background:url(../images/fade-arrow-down.png) center bottom no-repeat;
+		-webkit-palm-mouse-target: ignore;
+	}
+	
+	.scene-footer-spacer {
+		padding-bottom:65px;
+	}
+	
+	.scene-footer {
+		position:fixed; 
+		bottom:0px; 
+		left:0px; 
+		right:0px;
+		-webkit-border-image: url(../images/fade-bottom-light-30px.png) 35 0 0 0 repeat repeat;
+		border-width: 35px 0px 0px 0px;
+		-webkit-palm-mouse-target: ignore;
+	}
+	.scene-footer-wrapper {
+		margin-top:-10px;
+	}

@@ -1,0 +1,27 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "first",
+        "source": "app/assistants/first-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "help",
+        "source": "app/assistants/help-assistant.js"
+    },
+    {
+        "scenes": "second",
+        "source": "app/assistants/second-assistant.js"
+    },
+    {
+        "scenes": "third",
+        "source": "app/assistants/third-assistant.js"
+    },
+    {
+        "scenes": "firstLaunch",
+        "source": "app/assistants/firstLaunch-assistant.js"
+    }
+]
